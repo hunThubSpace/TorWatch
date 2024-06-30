@@ -98,7 +98,11 @@ If you continue to encounter issues, check the logs in `<website>/<website>.log`
 ## Demo
 
 Here’s a quick demo of how `TorWatch` works:
-https://github.com/hunThubSpace/TorWatch/assets/49031710/02eb7231-207e-4160-9c26-4cd432b87459
+
+
+https://github.com/hunThubSpace/TorWatch/assets/49031710/6bfab2d2-8915-467a-8a9b-670835a6e3e2
+
+
 
 
 

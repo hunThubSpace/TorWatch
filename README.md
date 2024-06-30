@@ -115,7 +115,7 @@ https://github.com/hunThubSpace/TorWatch/assets/49031710/6bfab2d2-8915-467a-8a9b
 ### Example Output
 
 ```text
-[*] ./torwatch www.google.com [*]
+./torwatch www.google.com
 
 [*] Site https://www.google.com is accessible through Tor. Current IP: X.X.X.X (country)
 ```
@@ -141,8 +141,8 @@ If `www.google.com` is down, the script will log:
 **`example.com/example.com.log`** might contain entries like:
 
 ```text
-2024-06-30 14:20:01 - [*] Site https://example.com is accessible through Tor. Current IP: 127.0.0.1 (Somewhere)
-2024-06-30 14:25:01 - [*] Site https://example.com returned status code 500. Blocking IP: 192.168.1.1 [Somewhere]
+2024-06-30 14:20:01 - Site https://example.com is accessible through Tor. Current IP: 127.0.0.1 [Somewhere]
+2024-06-30 14:25:01 - Site https://example.com returned status code 500. Blocking IP: 192.168.1.1 [Somewhere]
 ```
 
 **`example.com/example.com.blocked.txt`** might contain entries like:

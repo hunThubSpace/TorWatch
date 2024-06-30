@@ -115,9 +115,9 @@ https://github.com/hunThubSpace/TorWatch/assets/49031710/6bfab2d2-8915-467a-8a9b
 ### Example Output
 
 ```text
-./torwatch www.google.com
+./torwatch example.com
 
-[*] Site https://www.google.com is accessible through Tor. Current IP: X.X.X.X (country)
+[*] Site https://example.com is accessible through Tor. Current IP: X.X.X.X (country)
 ```
 
 ### Manual IP Change
@@ -130,7 +130,7 @@ When pressing `c`, the output will show:
 
 ### Blocked IP Example
 
-If `www.google.com` is down, the script will log:
+If `example.com` is down, the script will log:
 
 ```text
 [*] Site https://www.google.com returned status code 500. Blocking IP: 192.168.1.1 [Somewhere]
